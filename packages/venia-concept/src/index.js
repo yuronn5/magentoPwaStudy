@@ -8,6 +8,7 @@ import Adapter from './components/Adapter';
 
 import { registerSW } from './registerSW';
 import './index.css';
+import './index.module.css';
 
 // server rendering differs from browser rendering
 const isServer = !globalThis.document;

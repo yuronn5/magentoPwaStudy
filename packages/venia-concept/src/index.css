@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body #root  {
+    font-family: var(--drexel-global-fontFamily-serif);
+}

@@ -6,7 +6,8 @@ import { useToasts } from '@magento/peregrine';
 import useDelayedTransition from '@magento/peregrine/lib/hooks/useDelayedTransition';
 import { useApp } from '@magento/peregrine/lib/talons/App/useApp';
 
-import globalCSS from '@magento/venia-ui/lib/index.module.css';
+// import globalCSS from '@magento/venia-ui/lib/index.module.css';
+import globalCSS from '../../index.module.css';
 import { HeadProvider, StoreTitle } from '@magento/venia-ui/lib/components/Head';
 import Main from '../Main';
 import Mask from '@magento/venia-ui/lib/components/Mask';

@@ -8,7 +8,9 @@ import { useFooter } from '@magento/peregrine/lib/talons/Footer/useFooter';
 import Logo from '@magento/venia-ui/lib/components/Logo';
 import Newsletter from '@magento/venia-ui/lib/components/Newsletter';
 import { useStyle } from '@magento/venia-ui/lib/classify';
-import defaultClasses from '@magento/venia-ui/lib/components/Footer/footer.module.css';
+// import defaultClasses from '@magento/venia-ui/lib/components/Footer/footer.module.css';
+import defaultClasses from './footer.module.css';
+
 import { DEFAULT_LINKS, LOREM_IPSUM } from '@magento/venia-ui/lib/components/Footer/sampleData';
 import resourceUrl from '@magento/peregrine/lib/util/makeUrl';
 
